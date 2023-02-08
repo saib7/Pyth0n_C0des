@@ -1,4 +1,6 @@
-# Method overloading
+# Method overloading :
+# If a class has multiple methods having same name but different in parameters, it is known as Method Overloading
+# Unlike other programming languages, python does not support it by default.
 from multipledispatch import dispatch
 class my_calculator:
     @dispatch(int, int)

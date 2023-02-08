@@ -1,4 +1,7 @@
 # method overloading achieving in python
+# If a class has multiple methods having same name but different in parameters, it is known as Method Overloading
+# Unlike other programming languages, python does not support it by default.
+# But we can achieve it in some way
 class my_calculator:
     
 
